@@ -4,4 +4,5 @@ jdk:
   - openjdk7
   - oraclejdk9
   - oraclejdk11
+install: true
 script: mvn clean test apache-rat:check -Drat.numUnapprovedLicenses=2000
