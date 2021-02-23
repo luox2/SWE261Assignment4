@@ -3,4 +3,6 @@ sudo: required
 jdk:
   - openjdk7
   - oraclejdk11
-script: mvn clean test
+  - oraclejdk8
+  - oraclejdk9
+script: mvn clean install -Drat.numUnapprovedLicenses=100
