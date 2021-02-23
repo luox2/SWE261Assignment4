@@ -1,2 +1,7 @@
 language: java
-script: mvn clean install -Drat.numUnapprovedLicenses=100
+
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+
+script: mvn clean package -DskipTests=true
