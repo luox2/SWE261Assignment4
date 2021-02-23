@@ -1,7 +1,4 @@
 language: java
 
-cache:
-  directories:
-    - '$HOME/.m2/repository'
-
-script: mvn clean package -DskipTests=true
+install: true
+script: mvn clean install -Drat.numUnapprovedLicenses=100
