@@ -5,4 +5,4 @@ jdk:
   - oraclejdk11
   - oraclejdk8
   - oraclejdk9
-script: mvn clean test -Drat.numUnapprovedLicenses=200 -DskipTests
+script: mvn clean test -Drat.numUnapprovedLicenses=2000
