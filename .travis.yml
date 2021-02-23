@@ -1,2 +1,2 @@
 language: java
-script: mvn clean test -Drat.numUnapprovedLicenses=100
+script: mvn clean test -Drat.numUnapprovedLicenses=600
