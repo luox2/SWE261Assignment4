@@ -1,3 +1,6 @@
 language: java
-jdk: oraclejdk11
+sudo: required
+jdk:
+  - openjdk7
+  - oraclejdk11
 script: mvn clean test
