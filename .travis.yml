@@ -1,8 +1,5 @@
 language: java
-sudo: required
-jdk:
-  - openjdk7
-  - oraclejdk9
-  - oraclejdk11
 install: true
-script: mvn clean test apache-rat:check -Drat.numUnapprovedLicenses=2000
+script: mvn clean test apache-rat:check -Drat.numUnapprovedLicenses=600
+
+# just for test
